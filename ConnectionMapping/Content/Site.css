@@ -1,0 +1,99 @@
+﻿body {
+    margin-top: 15px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea {
+    min-height: 75px;
+}
+
+.editor-label {
+    margin: 1em 0 0 0;
+}
+
+.editor-field {
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.chatBox{
+    margin-top: 20px;
+    border: 1px solid gray;
+    overflow-y: auto;
+    overflow-x:hidden;
+    height:300px;
+}
+.userBox {
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    min-height: 300px;
+    padding: 2px !important;
+}
+
+.centered {
+    text-align:center;
+}
+
+.login {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px 0px 20px;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    background-color: #C2C2D6;
+}
+
+.loginButton {
+    padding-top: 10px;
+    float:right;
+    margin-bottom: 15px;
+} 
+.inputMsg {
+    margin-top:10px;
+    margin-right: 5px;
+}
+.sendBtn {
+    margin-top: 5px;
+}
+#test_Name
+    {
+        background-color:transparent;
+    }
+
+.form-search {
+    padding-left: 0px !important;
+}
+
+.msgs {
+    margin-left: -40px !important;
+}

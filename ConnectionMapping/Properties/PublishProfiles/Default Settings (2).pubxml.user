@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>ftp://50.62.160.47/chat.adamschaal.com/</_PublishTargetUrl>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlQ9nw8ltcU2t81bbjT2RUwAAAAACAAAAAAAQZgAAAAEAACAAAAAeN6PEqj2dVvcNap9pDt4rl5RF/EEegjVFYacxXkd7ngAAAAAOgAAAAAIAACAAAAAAlV/SNugLk7edZnk0KobUF6rkK8r+fmuLnX6e17ZxoyAAAAAqy5qR58THo+xthMmxejZnJzo2uw/M0RuQT7Hkfc3eQUAAAACL7LLtjE+eaVQ3S0x5FLSJ0CYrXL6f2A1HdQaF7YyS9zdCDsgaOk0MoJXnS0Bh/kH151XrgH40zoSTp+qGH8Dh</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/ConnectionMappingSample.dll">
+      <publishTime>09/06/2015 23:22:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>07/20/2015 22:27:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>07/20/2015 22:27:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Owin.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/20/2015 22:27:05</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>07/20/2015 22:27:27</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>07/20/2015 22:27:05</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>07/20/2015 22:27:14</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>07/20/2015 22:27:15</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>07/20/2015 22:27:07</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.css">
+      <publishTime>07/20/2015 22:24:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-responsive.min.css">
+      <publishTime>07/20/2015 22:24:53</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings-white.png">
+      <publishTime>07/20/2015 22:24:53</publishTime>
+    </File>
+    <File Include="Content/images/glyphicons-halflings.png">
+      <publishTime>07/20/2015 22:24:53</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>09/07/2015 19:13:46</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>09/06/2015 23:20:23</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>09/06/2015 23:20:23</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>07/20/2015 22:24:53</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>09/06/2015 23:20:24</publishTime>
+    </File>
+    <File Include="Scripts/apps/chat.js">
+      <publishTime>09/06/2015 15:48:13</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>09/06/2015 23:20:23</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>09/06/2015 23:20:19</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.3.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.8.3.min.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>09/06/2015 23:20:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>09/06/2015 23:20:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>09/06/2015 23:20:12</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-1.1.0-beta1.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-1.1.0-beta1.min.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>07/20/2015 22:24:54</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.debug.js">
+      <publishTime>07/20/2015 22:24:55</publishTime>
+    </File>
+    <File Include="Scripts/knockout-2.2.0.js">
+      <publishTime>07/20/2015 22:24:55</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>09/06/2015 20:15:46</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>09/07/2015 19:13:23</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>07/20/2015 22:24:55</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>09/07/2015 18:46:51</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>07/20/2015 22:24:55</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>07/20/2015 22:24:55</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>07/20/2015 22:34:33</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

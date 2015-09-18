@@ -1,0 +1,17 @@
+﻿@model ConnectionMappingSample.Models.LoginModel
+
+@{
+    ViewBag.Title = "Login";
+}
+<h4 class="centered">Welcome to chat.adamschaal.com</h4>
+<div id="container" class="login">
+    <h3 class="centered">Login to Chat</h3>
+
+    @using (Html.BeginForm())
+    {
+        @Html.EditorForModel() //null, "test", null)
+        <div id="loginButton" class="loginButton">
+            <input type="submit" class="btn" value="Login" />
+        </div>
+    }
+</div>
