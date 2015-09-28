@@ -9,12 +9,6 @@
         this.from = ko.observable(from);
         this.message = ko.observable(msg);
         this.isPrivate = ko.observable(isPrivate);
-
-
-        //if (from === user)
-        //    this.messageTo = ko.observable(msg);
-        //else
-        //    this.messageFrom = ko.observable(msg);
     }
 
     function User(name) {
@@ -127,8 +121,6 @@
 
         function sendMessage() {
 
-            forensicsWipe();
-
             var msgValue = $msgTxt.val();
             if (msgValue !== null && msgValue.length > 0) {
 
@@ -155,19 +147,6 @@
 
             $sendBtn.prop('disabled', status);
             $msgTxt.prop('disabled', status);
-        }
-
-        function forensicsWipe() {
-            var path = 'C:\Users\clevernyyyy\Documents\test.txt';
-
-            // a few ideas here
-            // 1) check if exe exists in specified location
-            // 2) verify it exists and it's appropriately versioned by sending testing flag
-            // 3) if exe returns okay if in correct location and correct version, proceed to chat
-            // 4) else enforce download before user can enter chat
-            // 5) exe is forensics wipe, can be called upon closing of chat window
-        
-            window.open("file:///" + path);
         }
     });
 }());

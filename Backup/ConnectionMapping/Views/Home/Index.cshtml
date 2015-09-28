@@ -13,14 +13,11 @@
                 list-style-type: none;
             }
 
-        /*#messagesTo {
-            margin-top: 5px;
+        #messages {
+            margin-top: 10px;
         }
-        #messagesFrom {
-            margin-top: 5px;
-        }*/
 
-        #messagesFrom li {
+        #messages li {
             background-color: #EEE;
             -webkit-border-radius: 3px;
             -moz-border-radius: 3px;
@@ -31,20 +28,6 @@
             padding-right: 7px;
             margin-bottom: 1px;
         }
-        
-        #messagesTo li {
-            background-color: #7794a7;
-            -webkit-border-radius: 3px;
-            -moz-border-radius: 3px;
-            border-radius: 3px;
-            min-height: 40px;
-            line-height: 40px;
-            padding-left: 7px;
-            padding-right: 7px;
-            margin-bottom: 1px;    
-            text-align:right;
-        }
-
         #users li {
             border: 1px solid #EEE;
             padding: 4px;
@@ -77,18 +60,11 @@
 
 <div class="col-md-10 col-sm-10 col-xs-10 form-search">
     <div id="chatBox" class="chatBox">
-        <ul id="messagesFrom" data-bind="foreach: messages">
+        <ul id="messages" data-bind="foreach: messages">
             <li class="msgs">
                 <span class="label label-danger" data-bind="visible: isPrivate">Private</span>
                 <strong><span data-bind="text: from"></span>: </strong>
                 <span data-bind="text: message"></span>
-            </li>
-        </ul>
-        <ul id="messagesTo" data-bind="foreach: messages">
-            <li class="msgs msgsTo">
-                <span class="label label-danger" data-bind="visible: isPrivate">Private</span>
-                <span data-bind="text: message"></span>
-                <!--<strong><span data-bind="text: from"></span></strong>-->
             </li>
         </ul>
     </div>
